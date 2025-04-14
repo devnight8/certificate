@@ -1,0 +1,122 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #f7f7f7;
+    padding: 40px;
+}
+
+.certificate-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+    background: #fff;
+    border: 10px solid #e0c681;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.ribbon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+}
+.ribbon img {
+    width: 150px;
+}
+
+.certificate {
+    text-align: center;
+}
+
+.certificate-title {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #c3a742;
+}
+
+.certificate-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0 30px;
+}
+
+.student-name {
+    font-size: 32px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.certificate-text {
+    font-size: 18px;
+    color: #444;
+    margin: 20px 0;
+    padding: 0 40px;
+    line-height: 1.6;
+}
+
+.certificate-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signature {
+    font-size: 16px;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.certificate-id {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #777;
+}
+
+.download-btn-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn-cer {
+    background: #c3a742;
+    width: 150px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media print {
+    body { background: none; padding: 0; }
+    .certificate-container { border: none; box-shadow: none; padding: 0; }
+    button, .download-btn-wrapper { display: none; }
+}
+
+
+.form-cer input {
+    background: #F7F8F9 !important;
+    width: 600px !important;
+    border: none;
+    margin: 10px 0;
+}
+
+.form-cer [type="submit"]{
+    width: 100%;
+    margin: 20px 0 ;
+    background: green;
+    color: #fff;
+    border: none;
+    
+}
+.form-cer [type="submit"]:hover{
+    background:#198918
+}
+
+.certificate-form label{
+    margin: 10px 0
+}
+

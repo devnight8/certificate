@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="certificate-container">
+    <div class="certificate">
+        <div class="ribbon">
+            <img src="/assets/gold-badge.png" alt="Gold Badge" />
+        </div>
+
+        <h2 class="certificate-title">CERTIFICATE</h2>
+        <p class="certificate-subtitle">OF ACHIEVEMENT</p>
+
+        <h1 class="student-name"><?= esc_html($student_name) ?></h1>
+        <p class="certificate-text">
+            This is to certify that <strong><?= esc_html($student_name) ?></strong> has successfully completed the course <strong><?= esc_html($course_title) ?></strong>.<br>
+            Completion Date: <strong><?= esc_html($completion_date) ?></strong>
+        </p>
+
+        <div class="certificate-footer">
+            <div class="signature"><?= esc_html($instructor_name) ?></div>
+        </div>
+        <p style="margin-top: 30px; font-size: 12px; color: #777;">Certificate ID: 20</p>
+    
+    </div>
+</div>
+</body>
+</html>
